@@ -1,0 +1,234 @@
+html {
+    font-size: 20px;
+}
+
+body {
+    color: black;
+    background-color: #ffffff;
+}
+
+main {
+    background-color: #ffffff;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff5757;
+}
+
+hr {
+    border: none;
+    border-top: 8px dotted #c7c7c7;
+    color: white;
+    height: 1px;
+    opacity: 1;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 6%;
+}
+
+footer {
+    text-align: center;
+    margin: 50px;
+}
+
+/* Headings */
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 10px 0;
+    font-size: 2rem;
+}
+
+h2 {
+    margin: 0;
+    padding: 0 0 10px 0;
+    color: #0d0551;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+h4 {
+    color: black;
+    font-size: 1.2rem;
+}
+
+/* Sections */
+
+#home {
+    padding: 0px 0px 20px;
+}
+
+#about, #projects, #contact  {
+    padding: 20px 0px;
+}
+
+/* Navigation Bar */
+
+.navbar-color {
+    background-color: #0d0551;
+    padding: 0% 10%;
+    }
+
+.navbar-brand {
+    color: white;
+    margin: 0px 10px;
+}
+
+/* Containers */
+
+.dark-container {
+    background-color: #004aad;
+    border-radius: 25px;
+    color: white;
+    margin: 1% 10%;
+    box-shadow: 0px 0px 20px 6px #888888;
+}
+
+.trans-container {
+    border-radius: 25px;
+    margin: 1% 10%;
+}
+
+.home-container {
+    border-radius: 25px;
+    margin: 1% 10%;
+    padding: 5% 10px;
+}
+
+.video-container {
+    position: relative;
+    z-index: -1;
+}
+
+/* Video */
+
+.video-container video {
+    position: absolute;
+    opacity: 0.75;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    object-fit:cover;
+}
+
+/* Content Boxes */
+
+.intro-box {
+    background-color: white;
+    border: 1px solid #0d0551;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px 6px #888888;
+    text-align: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.text-box {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+/* Images */
+
+.image-box img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 450px;
+}
+
+/* Icons */
+
+.social-icon {
+    margin: 10px 10px 10px 0px;
+}
+
+/* Cards */
+
+.card {
+    background-color: #0d0551;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px 6px #888888;
+    color: white;
+    margin: 10px 0px;
+    justify-items: center;
+    align-items: center;
+}
+
+.card-img-top {
+    border-radius: 25px;
+    padding: 20px;
+}
+
+/* Buttons */
+
+.general-button {
+    background-color: #ff5757;
+    border: none;
+    border-radius: 8px;
+    color: black;
+    font-family: "Ubuntu", sans-serif;
+    padding: 6px 20px;
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+.general-button:hover {
+    color: white;
+    background-color: #fc8181;
+    cursor: pointer;
+}
+
+.general-button:active {
+    color: white;
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
+/* Video Credit */
+
+.video-credit {
+    display: flex;
+    justify-content: center;
+    margin: 2% 10%;
+}
+
+.video-credit a {
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Section Spacing */
+
+.divider {
+    height: 50px;
+}
+
+
+
+
+
